@@ -1,1 +1,17 @@
-# Cahalan_A_Yeom_S_MusicMixer
+# Music Mixer
+
+## Theme
+
+## Music
+
+## Authors
+- Developer: Seunghyeon Yeom
+- Designer: Ashley Cahalan
+
+## References
+
+## Inspiration
+
+## License
+MIT
+
