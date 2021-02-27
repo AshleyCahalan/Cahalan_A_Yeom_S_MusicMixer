@@ -1,4 +1,5 @@
-# Music Mixer
+# Music Mixer - Coming Soon
+*Ideas and planning on google doc - see assets folder for downloaded document*
 
 ## Theme
 
