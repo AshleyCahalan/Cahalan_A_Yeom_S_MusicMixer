@@ -1,1 +1,92 @@
-.hidden { display: none; }
+@charset "utf-8";
+
+.hidden 
+{ 
+	display: none; 
+}
+
+#container 
+{
+    margin: 0 auto;
+    width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#mainHeader
+{
+	display: flex;
+	width: auto;
+	height: 80px;
+	background: rgb(0,0,0);
+	background: linear-gradient(180deg, rgba(0,0,0,1) 69%, rgba(255,255,255,1) 100%);
+}
+
+#pageTitle
+{
+	font-family: "Cooper Black", "Times New Roman", serif;
+	font-weight: bold;
+	letter-spacing: 4px;
+	color: #fff;
+	font-size: 30px;
+	padding: 20px;
+}
+
+#middleContent
+{
+	display: flex;
+	justify-content: row;
+	margin-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.boxDropzone
+{
+	display: block;
+	justify-content: column;
+}
+
+.box
+{
+	border: 3px solid #707070;
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+	width: 80px;
+	height: 80px;
+	margin-top: 10px;
+}
+
+.musicBox img
+{
+	width: 80px;
+}
+
+#jukeBox img
+{
+	width: 320px;
+}
+
+.boxPlaceholder
+{
+	display: flex;
+	flex-direction: column;
+	margin-top: 110px;
+}
+
+.separate
+{
+	margin-left: 80px;
+}
+
+.holder
+{
+	margin-right: 20px;
+	border: 3px solid #707070;
+}
+
+#leprechaun img
+{
+	width: 290px;
+	margin-top: 110px;
+}
+
