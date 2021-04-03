@@ -6,24 +6,28 @@
      // debugger;
 
      function dragging(event) {
-          console.log('started dragging puzzle pieces');
+          console.log("dragStart");
           event.dataTransfer.setData("saveID", this.id);
      }
 
      function draggedOver(event) {
           event.preventDefault();
-          console.log('dragged over puzzle pieces');
+          console.log("dragOver");
      }
 
      function dropped(event) {
           event.preventDefault();
-          console.log('dropped puzzles on a board');
+          console.log("drop");
 
-          let targetPieces = event.dataTransfer.getData("saveID");
-          console.log("Dragging a piece to here", targetPieces);
+          if (this.childElementCount > 0) { return; }
+
+          let targetData = event.dataTransfer.getData("saveID");
+          console.log("I'm dragging", targetData, "piece to here.");
+
+          event.target.appendChild(document.querySelector(`#${targetData}`));
      }
 
-     dragPieces.forEach(piece => piece.addEventListener("dragging", dragging));
+     dragPieces.forEach(piece => piece.addEventListener("dragstart", dragging));
 
      dropPieces.forEach(zone => {
           zone.addEventListener("dragover", draggedOver);

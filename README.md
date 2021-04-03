@@ -1,15 +1,21 @@
 # Music Mixer - Coming Soon
-*Ideas and planning on google doc - see assets folder for downloaded document*
+
+_Ideas and planning on google doc - see assets folder for downloaded document_
 
 ## Theme
+
+The Irish Jukebox
 
 ## Music
 
 ## Authors
-- Developer: Seunghyeon Yeom
-- Designer: Ashley Cahalan
+
+-  Developer: Seunghyeon Yeom
+-  Designer: Ashley Cahalan
 
 ## References
+
+-  Sound Effect: Bensound (https://www.bensound.com/)
 
 ## Inspiration
 

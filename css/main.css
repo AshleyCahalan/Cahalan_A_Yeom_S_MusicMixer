@@ -82,12 +82,11 @@
 {
 	margin-right: 20px;
 	border: 3px solid #707070;
-	cursor: pointer;
 }
 
 .holder:hover
 {
-	border: 3px solid #ff5e5e;
+	border: 3px solid #f57878;
 }
 
 #leprechaun img
@@ -95,18 +94,6 @@
 	width: 290px;
 	margin-top: 110px;
 }
-
-/* images setup */
-
-#ceiliDancersSVG { width: 70% }
-#hardShoeSVG { width: 70% }
-#kickSVG { width: 50% }
-#claddaghSVG { width: 90% }
-#jumpSVG { width: 70% }
-#shamrockSVG { width: 70% }
-#maleDancerSVG { width: 45% }
-#softShoeSVG { width: 50% }
-#trickSVG { width: 50% }
 
 /* To arrange the puzzle pieces */
 
@@ -121,3 +108,15 @@
 	float: left;
 	clear: both;
 }
+
+/* images setup */
+
+#ceiliDancersSVG { width: 70% }
+#hardShoeSVG { width: 70% }
+#kickSVG { width: 50% }
+#claddaghSVG { width: 90% }
+#jumpSVG { width: 70% }
+#shamrockSVG { width: 70% }
+#maleDancerSVG { width: 45% }
+#softShoeSVG { width: 50% }
+#trickSVG { width: 50% }
