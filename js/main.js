@@ -1,6 +1,6 @@
 (() => {
      const dropZoneContainer = document.querySelector(".musicBox"),
-          dragPieces = document.querySelectorAll(".puzzlePieces"),
+          dragZone = document.querySelector(".boxPlaceholder"),
           dropPieces = document.querySelectorAll(".dropZone");
 
      // debugger;
@@ -33,5 +33,7 @@
           zone.addEventListener("dragover", draggedOver);
           zone.addEventListener("drop", dropped);
      })
+
+     
 
 })();

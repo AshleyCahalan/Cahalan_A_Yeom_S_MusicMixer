@@ -6,6 +6,11 @@ _Ideas and planning on google doc - see assets folder for downloaded document_
 
 The Irish Jukebox
 
+## Composition
+
+-  eight 'drop zones' and nine 'puzzle pieces'
+-
+
 ## Music
 
 ## Authors
